@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather App</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="weather-app">
+            <h1>Weather App</h1>
+            <div class="api-notice" id="apiNotice" style="display: none;">
+                <p><strong>Demo Mode:</strong> Using mock data. To get real weather data, get a free API key from <a href="https://openweathermap.org/api" target="_blank">OpenWeatherMap</a> and replace 'YOUR_API_KEY_HERE' in script.js</p>
+            </div>
+            <div class="search-box">
+                <input type="text" id="cityInput" placeholder="Enter city name..." />
+                <button id="getWeatherBtn">Get Weather</button>
+            </div>
+            <div class="weather-info" id="weatherInfo">
+                <div class="error-message" id="errorMessage" style="display: none;">
+                    City not found. Please check the spelling and try again.
+                </div>
+                <div class="weather-details" id="weatherDetails" style="display: none;">
+                    <div class="city-name" id="cityName"></div>
+                    <div class="temperature" id="temperature"></div>
+                    <div class="weather-condition" id="weatherCondition"></div>
+                    <div class="additional-info">
+                        <div class="info-item">
+                            <span class="label">Humidity:</span>
+                            <span id="humidity"></span>
+                        </div>
+                        <div class="info-item">
+                            <span class="label">Wind Speed:</span>
+                            <span id="windSpeed"></span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
