@@ -2,6 +2,9 @@
 
 A simple yet powerful weather web application that allows users to check real-time weather conditions by entering the name of any city. Built using HTML, CSS, and JavaScript, it fetches live weather data from the OpenWeatherMap API.
 
+## 🔗 Live Demo
+[Click here to try the Weather App](https://darshan980.github.io/weather-app/)
+
 ## Features
 
 - **Real-time Weather Data**: Get current weather information for any city worldwide
@@ -96,3 +99,7 @@ You can easily customize the application by:
 **"City not found" error**: Check the spelling of the city name. Try using the full city name or include the country code.
 
 **No response**: Check your internet connection and ensure the API key is valid and not exceeded its usage limit.
+
+## 📄 License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
